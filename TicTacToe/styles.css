@@ -1,0 +1,26 @@
+* ::before, * ::after{
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.board {
+  width: 800px;
+  height: 800px;
+  border: black solid 1px;
+}
+
+.square {
+  width: 250px;
+  height: 250px;
+  border: black solid 1px;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
